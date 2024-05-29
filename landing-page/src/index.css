@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121312;
+  color: #ffe7e7;
+}
+
+.header {
+  background-color: #770b11;
+  padding: 1rem;
+  color: #fff;
+}
+
+.header nav h1 {
+  display: inline;
+}
+
+.header nav ul {
+  list-style: none;
+  display: inline;
+  float: right;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #ff0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  padding: 10rem 0.5rem;
+  background: url("assets/img/img3.jpg") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.play-button:hover {
+  background-color: #f40612;
+}
+
+.info-button {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+.info-button:hover {
+  background-color: #5a5a5a;
+}
+
+.trending-section {
+  padding: 100px;
+  background-color: #030303;
+  background-image: url("assets/img/img1.jpg");
+  color: #fff;
+}
+
+.trending-section h2 {
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+
+.trending-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.trending-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.trending-item {
+  flex: 1 1 calc(25% - 20px);
+  background-color: #810101;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.trending-item:hover {
+  transform: scale(1.05);
+}
+
+.trending-item h3 {
+  font-size: 1.2em;
+  color: #fbfbfb;
+}
+
+.footer {
+  background-color: #161616;
+  padding: 1rem;
+  text-align: center;
+}
